@@ -11,8 +11,9 @@
 class HackCube
 {
   public:
+    String CUBE_ADDRESS;
     HackCube();
-    void ConstructMessage();
+    String ConstructMessage(String content);
     void Connect();
 };
 
