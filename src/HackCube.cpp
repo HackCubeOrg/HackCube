@@ -21,6 +21,6 @@ String HackCube::ConstructMessage(String content)
   return message;
 }
 
-void Morse::Connect()
+void HackCube::Connect()
 {
 }
