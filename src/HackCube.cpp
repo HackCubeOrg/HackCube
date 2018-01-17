@@ -11,12 +11,12 @@ HackCube::HackCube()
 {
 }
 
-HackCub::CUBE_ADDRESS = "";
+HackCube::CUBE_ADDRESS = "";
 
 String HackCube::ConstructMessage(String content)
 {
   String separator = "|";
-  String message = CUBE_ADDRESS + separator + content;
+  String message = HackCube::CUBE_ADDRESS + separator + content;
 
   return message;
 }
